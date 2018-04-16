@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="3" column="0">
+       <widget class="QComboBox" name="comboBox_when">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>幼稚園</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>小学校</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>中学校</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>高校</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>大学</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>その他</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="16" column="3">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="9" column="0" rowspan="10" colspan="3">
+       <widget class="QPlainTextEdit" name="plainTextEdit"/>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>ジャンル</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>時期</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>タグ</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="4">
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>コメント</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="3">
+       <widget class="QPushButton" name="pushButton_save">
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLineEdit" name="lineEdit_tag"/>
+      </item>
+      <item row="18" column="3">
+       <widget class="QPushButton" name="pushButton_show">
+        <property name="text">
+         <string>Show</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="comboBox_what">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>学んだこと</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>続けたいこと</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>好きだったこと</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>嫌だったこと</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>その他</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="9" column="3">
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+      <item row="10" column="3">
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>古い順</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>新しい順</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="11" column="3">
+       <widget class="QComboBox" name="comboBox_2">
+        <item>
+         <property name="text">
+          <string>幼稚園</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>小学校</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>中学校</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>高校</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>大学</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="12" column="3">
+       <widget class="QComboBox" name="comboBox_3">
+        <item>
+         <property name="text">
+          <string>学んだこと</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>続けたいこと</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>好きだったこと</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>嫌だったこと</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>その他</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="7" column="3">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>検索</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>459</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="action_Open"/>
+    <addaction name="action_Set"/>
+   </widget>
+   <addaction name="menu_File"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_Open">
+   <property name="text">
+    <string>&amp;Open</string>
+   </property>
+  </action>
+  <action name="action_Set">
+   <property name="text">
+    <string>&amp;Set</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>comboBox_when</tabstop>
+  <tabstop>comboBox_what</tabstop>
+  <tabstop>lineEdit_tag</tabstop>
+  <tabstop>plainTextEdit</tabstop>
+  <tabstop>pushButton_save</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>comboBox_2</tabstop>
+  <tabstop>comboBox_3</tabstop>
+  <tabstop>pushButton_show</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
